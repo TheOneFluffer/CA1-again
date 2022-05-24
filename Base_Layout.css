@@ -12,7 +12,6 @@ table{
     color: #ff59c7;
     background-color: #000000;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    border: 1px, solid, #ff59c7;
 }
 
 a:link {
@@ -35,4 +34,5 @@ footer {
     text-align: center;
     font-size: 0.8em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 1080px;
 }
