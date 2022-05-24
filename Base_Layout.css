@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ff59c7;
+}
+
+table{
+    text-align: center;
+    width: 100%;
+    color: #ff59c7;
+    background-color: #000000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px, solid, #ff59c7;
+}
+
+a:link {
+    color: #ff59c7;
+    line-height: 2em;
+    text-align: center;
+}
+
+a:hover {
+    color: #ff59c7;
+}
+
+a:visited {
+    color: #ff59c7;
+}
+
+footer {
+    color: #000000;
+    background-color: #ff59c7;
+    text-align: center;
+    font-size: 0.8em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

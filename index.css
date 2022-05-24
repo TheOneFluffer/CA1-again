@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+p{
+    font-size: larger;
+}
+
+body {
+    background-color: #000000;
+    display: block;
+    width: 100%;
+    max-width: 1080px;
+    height: 30px;
+    margin: auto;
+    color: #ff59c7;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#CPS{
+    display: grid;
+    gap: 15px;
+    background-color: #000000;
+}
+
+.CPS > div {
+    text-align: left;
+    padding: 2px;
+}

@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+.Top1{
+    display: grid;
+    color: #ff59c7;
+    font-size: medium;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    gap: 15px;
+    float: left;
+}
+
+.Top2{
+    display: grid;
+    color: #ff59c7;
+    font-size: medium;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    gap: 15px;
+    float: right;
+}
+
+.Top3{
+    display: grid;
+    color: #ff59c7;
+    font-size: medium;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    gap: 15px;
+    float: right;
+}
+
+body {
+    background-color: #000000;
+    width: 100%;
+    max-width: 1080px;
+    height: 30px;
+    color: #ff59c7;
+    float: right;
+}
+
+li{
+    float: left;
+    text-align: center;
+    padding: auto;
+}
