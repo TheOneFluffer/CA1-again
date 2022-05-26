@@ -2,6 +2,7 @@
 
 p{
     font-size: larger;
+    grid-column: span 3 / auto;
 }
 
 body {
@@ -15,16 +16,58 @@ body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-#Current_Ex{
+div.CurrentEx > div{
     display: grid;
-    gap: 15px;
+    grid-template-columns: 2 / auto;
+    grid-template-rows: 1 / auto;
+}
+
+div#currentEx > div > li{
+    display: grid;
+    grid-column: span 1 / auto;
+    grid-row: span 1 / auto;
+}
+
+div.CurrentEx > img{
+    display: grid;
+    grid-column: span 2 / auto;
+    grid-row: span 1 / auto;
+}
+
+div.Courses > div{
+    display: grid;
+    grid-template-columns: 3 / auto;
+    grid-template-rows: 3 / auto;
+}
+
+div.Courses > div > li{
+    display: grid;
+    grid-column: span 1 / auto;
+    grid-row: span 1 / auto;
+}
+
+div.Courses > img{
+    display: grid;
+    grid-column: span 1 / auto;
+    grid-row: span 1 / auto;
+}
+
+div#CurrentEx{
+    display: grid;
+    grid-column: span 2 / auto;
+    grid-row: span 3 / auto;
     background-color: #000000;
-    padding-bottom: 15px;
+    width: 100%;
+    max-width: 1080px;
 }
 
 #Courses{
     display: grid;
+    grid-column: span 2 / auto;
+    grid-row: span 1 / auto;
     gap: 15px;
     background-color: #000000;
     padding: 15px;
+    width: 100%;
+    max-width: 1080px;
 }

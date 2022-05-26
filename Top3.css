@@ -22,17 +22,20 @@ body {
     gap: 10px;
     color: #ff59c7;
     background-color: #000000;
-    text-align: center;
-    padding: 10px;
+    padding: 5px;
 }
 
 .SysAdmin {
-    grid-column-start: 1;
-    grid-column-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 1;
     color: #ff59c7;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-  
+
+
+p{
+    float: left;
+}
 .CyberSec {
     grid-column-start: 1;
     grid-column-end: 2;
