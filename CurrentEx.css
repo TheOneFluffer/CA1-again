@@ -1,10 +1,5 @@
 @charset "utf-8";
 
-p{
-    font-size: larger;
-    grid-column: span 3 / auto;
-}
-
 body {
     background-color: #000000;
     display: block;
@@ -14,6 +9,11 @@ body {
     margin: auto;
     color: #ff59c7;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p{
+    font-size: larger;
+    grid-column: span 3 / auto;
 }
 
 div.CurrentEx > div{
@@ -28,10 +28,12 @@ div#currentEx > div > li{
     grid-row: span 1 / auto;
 }
 
-div.CurrentEx > img{
-    display: grid;
-    grid-column: span 2 / auto;
-    grid-row: span 1 / auto;
+.Rpi{
+
+    width: 300px;
+    height: 200px;
+    margin-left: 20px;
+    
 }
 
 div.Courses > div{
@@ -46,10 +48,10 @@ div.Courses > div > li{
     grid-row: span 1 / auto;
 }
 
-div.Courses > img{
-    display: grid;
-    grid-column: span 1 / auto;
-    grid-row: span 1 / auto;
+.Cyber{
+    width: 300px;
+    height: 200px;
+    margin-left: 200px;
 }
 
 div#CurrentEx{
@@ -57,8 +59,6 @@ div#CurrentEx{
     grid-column: span 2 / auto;
     grid-row: span 3 / auto;
     background-color: #000000;
-    width: 100%;
-    max-width: 1080px;
 }
 
 #Courses{
@@ -68,6 +68,4 @@ div#CurrentEx{
     gap: 15px;
     background-color: #000000;
     padding: 15px;
-    width: 100%;
-    max-width: 1080px;
 }

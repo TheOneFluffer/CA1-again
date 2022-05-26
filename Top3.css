@@ -2,7 +2,6 @@
 
 li{
     float: left;
-    text-align: center;
     padding: auto;
 }
 
@@ -11,41 +10,26 @@ body {
     max-width: 1080px;
     display: block;
     width: 100%;
-    max-width: 1080px;
     height: 30px;
     margin: auto;
 }
 
 .Top3-container {
+    align-content: start;
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto;
     gap: 10px;
-    color: #ff59c7;
-    background-color: #000000;
     padding: 5px;
-}
-
-.SysAdmin {
-    grid-column-start: 2;
-    grid-column-end: 1;
     color: #ff59c7;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.Top3-img {
+    width: 50%;
+    margin-left: 20%;
+}
 
 p{
     float: left;
 }
-.CyberSec {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    color: #ff59c7;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-  
-.NetSec {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    color: #ff59c7;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+
