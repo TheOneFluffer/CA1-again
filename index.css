@@ -15,13 +15,18 @@ body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-#CPS{
+.CPS{
     display: grid;
     gap: 15px;
-    background-color: #000000;
+    align-content: start;
+    grid-template-columns: auto auto;
+    padding: 5px;
+    color: #ff59c7;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.CPS > div {
-    text-align: left;
-    padding: 2px;
+.indexImages {
+    width: 50%;
+    margin-left: 20%;
+    position: relative;
 }

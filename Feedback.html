@@ -7,72 +7,112 @@
     <h1>Feedback</h1>
     <link href="Base_Layout.css" rel="stylesheet" />
     <link href="Feedback.css" rel="stylesheet" />
-        
+
     <table>
         <th>
-            <td><a link href="index.html">Introduction</a></td>
-            <td><a link href="CurrentEx.html">Current experience in SP</a></td>
-            <td><a link href="Top3.html">Top 3 career choices</a></td>
-            <td><a link href="Feedback.html">Feedback</a></td>
+        <td><a link href="index.html">Introduction</a></td>
+        <td><a link href="CurrentEx.html">Current experience in SP</a></td>
+        <td><a link href="Top3.html">Top 3 career choices</a></td>
+        <td><a link href="Feedback.html">Feedback</a></td>
         </th>
     </table>
 </header>
 
 <body>
-    <form>
-    <div>
-        <label for="status">Who are you:</label>
-        <select name="status" id="status">
-            <option value="student">student</option>
-            <option value="staff">Staff</option>
-            <option value="alumni">Alumni</option>
-        </select>
-    </div>
-    <br>
-    <div>
-        <label for="o-range">Satisfaction (between 1 to 5):</label>
-        <input type="range" id="o-range" name="o-range" min="1" max="5" value="3">
-    </div>
-    <br>
-    <div>
-        <label for="age">Enter your age:</label>
-        <input type="number" id="age" placeholder="18" min="1">
-        <p>Please select your Gender:</p>
-        <input type="radio" id="male" name="gender" value="men">
-        <label for="html">Male</label>
+    <div class="Feedback_Container">
+        <div>
+            <label for="status"><b>Who are you:</b></label>
+        </div>
+
+        <div>
+            <select name="status" id="status">
+                <option value="student">student</option>
+                <option value="staff">Staff</option>
+                <option value="alumni">Alumni</option>
+            </select>
+        </div>
+
         <br>
-        <input type="radio" id="female" name="gender" value="women">
-        <label for="css">Female</label>
+
+        <div></div>
+
+        <div>
+            <label><b>Satisfaction (between 1 to 5):</b></label>
+        </div>
+        
+        <div>
+            <input type="range" id="o-range" name="o-range" min="1" max="5" value="3">
+        </div>
+
         <br>
-        <input type="radio" id="others" name="gender" value="others">
-        <label for="javascript">Others</label>
-    </div>
-    <br>
-    <div>
-        <label for="email">Email address:</label>
-        <input type="email" id="email" name="email address" placeholder="example@mail.com" style="width: 500px;">
-    </div>
-    <br>
-    <div>
-        <label for="text">Type in your feedback here:</label>
+
+        <div></div>
+
+        <div>
+            <label for="age"><b>Enter your age:</b></label>
+        </div>
+
+        <div>
+            <input type="number" id="age" placeholder="18" min="1">
+        </div>
+
+        <br>
+
+        <div></div>
+
+        <div>
+            <p><b>Please select your Gender:</b></p>
+
+        </div>
+        <div>
+              <input type="radio" id="male" name="gender" value="men">
+              <label for="male">Male</label>
+            <br>
+              <input type="radio" id="female" name="gender" value="women">
+              <label for="female">Female</label>
+            <br>
+              <input type="radio" id="others" name="gender" value="others">
+              <label for="others">Others</label>
+        </div>
+
+        <br>
+
+        <div></div>
+
+        <div>
+            <label for="email"><b>Email address:</b></label>
+        </div>
+        <div>
+            <input type="email" id="email" name="email address" placeholder="example@mail.com" style="width: 500px;">
+        </div>
+
+        <br>
+
+        <div></div>
+
+        <div>
+            <label for="text"><b>Type in your feedback here:</b></label>
+        </div>
         <br>
         <div class="expandingArea" style="width: 1000px; height: 200px;">
             <pre><span></span><br></pre>
             <textarea placeholder="Please type in your feedback here."></textarea>
+        </div>
     </div>
     <br>
-    <div class="Center">
-        <form><button onclick="Submission()" style="width: 250px;">Submit</button></form>
-    </div>
+        <div class="Center">
+            <form><button onclick="Submission()" style="width: 250px;">Submit</button></form>
+        </div>
 
-<!--Programming the button to show a popup saying that the feedback form is submitted-->
-<script>
-    function Submission()
-    {
-        alert("Your feedback form has been submitted!");
-    }
-</script>
-</form>
+
+    <!--Programming the button to show a popup saying that the feedback form is submitted-->
+    <script>
+        function Submission() {
+            alert("Your feedback form has been submitted!");
+        }
+    </script>
 </body>
+
 <footer>Hong Wei &copy; 2022 &#9829; Singapore Poly &#9829; 88155466</footer>
+
 </html>
